@@ -43,25 +43,18 @@
    - Bug 记录模板和工作流
    - 项目级管理方案
 
-4. **[文档工作流](tutorials/04-documentation-workflow.md)**
-   - 双语文档编写
-   - 截图管理和敏感信息处理
-   - Markdown 最佳实践
-
 ---
 
 ### 🔧 工作流指南
 
 - **[Bug 修复工作流](workflows/bug-fixing.md)** - 从发现到记录的完整流程
 - **[知识管理工作流](workflows/knowledge-management.md)** - 项目知识沉淀方法
-- **[Git 操作工作流](workflows/git-operations.md)** - 分支管理、提交规范
 
 ---
 
 ### 📋 模板库
 
 - **[Bug 记录模板](templates/bug-template.md)** - 标准化 Bug 记录格式
-- **[项目文档模板](templates/project-template.md)** - 项目知识库结构
 
 ---
 
@@ -103,14 +96,12 @@
 
 根据你的需求选择：
 - 想学习 Bug 管理 → [Bug 追踪体系搭建](tutorials/03-bug-tracking-system.md)
-- 想改进文档流程 → [文档工作流](tutorials/04-documentation-workflow.md)
 - 想优化知识管理 → [知识管理工作流](workflows/knowledge-management.md)
 
 ### 3. 使用模板
 
 直接复制模板到你的项目：
 - [Bug 记录模板](templates/bug-template.md)
-- [项目文档模板](templates/project-template.md)
 
 ---
 
@@ -142,10 +133,10 @@
 
 ## 📊 项目统计
 
-- **教程数量**: 4 个
-- **工作流指南**: 3 个
+- **教程数量**: 3 个
+- **工作流指南**: 2 个
 - **案例研究**: 1 个（持续更新）
-- **模板文件**: 2 个
+- **模板文件**: 1 个
 - **总字数**: 约 30,000 字
 - **截图**: 8 张
 
@@ -213,25 +204,18 @@ This is a **practical tutorial collection** documenting my real-world collaborat
    - Bug tracking templates and workflows
    - Project-level management approach
 
-4. **[Documentation Workflow](tutorials/04-documentation-workflow.md)**
-   - Bilingual documentation writing
-   - Screenshot management and sensitive data handling
-   - Markdown best practices
-
 ---
 
 ### 🔧 Workflow Guides
 
 - **[Bug Fixing Workflow](workflows/bug-fixing.md)** - Complete process from discovery to documentation
 - **[Knowledge Management Workflow](workflows/knowledge-management.md)** - Project knowledge accumulation methods
-- **[Git Operations Workflow](workflows/git-operations.md)** - Branch management, commit conventions
 
 ---
 
 ### 📋 Template Library
 
 - **[Bug Report Template](templates/bug-template.md)** - Standardized bug documentation format
-- **[Project Documentation Template](templates/project-template.md)** - Project knowledge base structure
 
 ---
 
@@ -273,14 +257,12 @@ This is the most comprehensive case study, including:
 
 Choose based on your needs:
 - Want to learn bug management → [Building a Bug Tracking System](tutorials/03-bug-tracking-system.md)
-- Want to improve documentation → [Documentation Workflow](tutorials/04-documentation-workflow.md)
 - Want to optimize knowledge management → [Knowledge Management Workflow](workflows/knowledge-management.md)
 
 ### 3. Use Templates
 
 Copy templates directly to your projects:
 - [Bug Report Template](templates/bug-template.md)
-- [Project Documentation Template](templates/project-template.md)
 
 ---
 
@@ -312,10 +294,10 @@ Copy templates directly to your projects:
 
 ## 📊 Repository Stats
 
-- **Tutorials**: 4
-- **Workflow Guides**: 3
+- **Tutorials**: 3
+- **Workflow Guides**: 2
 - **Case Studies**: 1 (continuously updated)
-- **Templates**: 2
+- **Templates**: 1
 - **Total Words**: ~30,000
 - **Screenshots**: 8
 

@@ -249,15 +249,15 @@
 
 想了解完整的开发过程？查看：
 
-- **[开源项目启动全流程](../tutorials/02-open-source-project.md)** - 1,900+ 行详细教程
-- **[Bug 追踪体系搭建](../tutorials/03-bug-tracking-system.md)** - 知识管理实践
+- **[开源项目启动全流程](../../tutorials/02-open-source-project.md)** - 1,900+ 行详细教程
+- **[Bug 追踪体系搭建](../../tutorials/03-bug-tracking-system.md)** - 知识管理实践
 
 ---
 
 ## 🔗 相关链接
 
 - **项目地址**: https://github.com/[username]/code-health
-- **完整教程**: [02-open-source-project.md](../tutorials/02-open-source-project.md)
+- **完整教程**: [02-open-source-project.md](../../tutorials/02-open-source-project.md)
 
 ---
 

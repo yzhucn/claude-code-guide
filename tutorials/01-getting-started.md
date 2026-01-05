@@ -319,11 +319,9 @@ scripts/send-to-dingtalk.sh 中硬编码了很多配置，
 
 2. **学习专项工作流**
    - [Bug 追踪体系搭建](03-bug-tracking-system.md)
-   - [文档工作流](04-documentation-workflow.md)
 
 3. **使用模板库**
    - [Bug 记录模板](../templates/bug-template.md)
-   - [项目文档模板](../templates/project-template.md)
 
 4. **查看案例研究**
    - [Code Health Monitor 案例](../case-studies/code-health-monitor/)

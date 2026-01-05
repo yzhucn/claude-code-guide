@@ -156,7 +156,7 @@ cd /opt/project/.code-health/scripts
 
 **实战截图**：
 
-![Bug 发现 - 加班提交次数为空](images/01-bug-found.png)
+![Bug 发现 - 加班提交次数为空](../images/01-bug-found.png)
 
 *图：Bug 发现 - 日报中加班提交次数显示为空*
 
@@ -1020,7 +1020,7 @@ git push -f origin main
 
 **GitHub 仓库验证截图**：
 
-![GitHub 仓库验证](images/04-github-verification.png)
+![GitHub 仓库验证](../images/04-github-verification.png)
 
 *图：使用 GitHub API 验证仓库信息和文档完整性*
 
@@ -1301,11 +1301,11 @@ GITHUB_TOKEN=your_token ./create-github-release.sh
 
 **实战截图**：
 
-![v1.0.0 Release 创建过程](images/05-release-creation.png)
+![v1.0.0 Release 创建过程](../images/05-release-creation.png)
 
 *图：创建 v1.0.0 Git Tag 和准备 Release Notes*
 
-![Release 创建成功](images/06-release-success.png)
+![Release 创建成功](../images/06-release-success.png)
 
 *图：GitHub Release v1.0.0 创建成功，包含完整的双语发布说明*
 
@@ -1506,7 +1506,7 @@ git push origin main
 
 **实战截图**：
 
-![公告横幅添加完成](images/07-announcement-banner.png)
+![公告横幅添加完成](../images/07-announcement-banner.png)
 
 *图：成功将 v1.0.0 发布公告横幅添加到中英文 README 文件*
 
@@ -2190,17 +2190,17 @@ curl -s https://api.github.com/repos/USER/REPO/releases/latest
 
 ### 项目完成度检查
 
-![项目完成清单](images/02-project-checklist.png)
+![项目完成清单](../images/02-project-checklist.png)
 
 *图：项目完成度总体评估 - 优秀级别（100%）*
 
-![最终工作清单](images/03-final-checklist.png)
+![最终工作清单](../images/03-final-checklist.png)
 
 *图：最终完成状态 - 所有任务检查清单*
 
 ### 知识库归档
 
-![知识库创建](images/08-knowledgebase-setup.png)
+![知识库创建](../images/08-knowledgebase-setup.png)
 
 *图：将本教程归档到个人知识库 - 知识沉淀开始！*
 

@@ -241,7 +241,7 @@ knowledgebase/
 4. 字段说明（严重程度、难度分类）
 ```
 
-**Claude Code 生成** → [查看完整文档](../templates/README.md)
+**Claude Code 生成**
 
 **关键内容**：
 
@@ -528,7 +528,6 @@ grep "加班" 会匹配到兜底文本"无加班/深夜/周末提交"，
 ## 📚 相关资源
 
 - **Bug 记录模板**: [bug-template.md](../templates/bug-template.md)
-- **实际案例**: [Code Health Monitor Bug 记录](../case-studies/code-health-monitor/bug-fixes/)
 - **完整教程**: [开源项目启动全流程](02-open-source-project.md)
 
 ---
