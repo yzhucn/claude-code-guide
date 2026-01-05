@@ -256,7 +256,7 @@
 
 ## 🔗 相关链接
 
-- **项目地址**: https://github.com/[username]/code-health
+- **项目地址**: https://github.com/yzhucn/code-health
 - **完整教程**: [02-open-source-project.md](../../tutorials/02-open-source-project.md)
 
 ---
