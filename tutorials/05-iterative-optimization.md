@@ -621,3 +621,94 @@ def _generate_basic_metrics(self) -> str:
 
 **最后更新**: 2026-01-05
 **作者**: Claude Code 协作团队
+
+---
+
+## 🔄 GitHub 协作流程 / GitHub Collaboration Workflow
+
+### 代码推送策略 / Code Push Strategy
+
+在完成本地修复和测试后，我们将代码推送到 GitHub：
+
+```bash
+# 1. 确认修复已提交
+git log --oneline -5
+
+# 2. 推送到远程仓库
+git push origin main
+
+# 3. 验证推送成功
+git log origin/main --oneline -5
+```
+
+**我们的实际推送**：
+```
+2026-01-06 10:35 - 推送 P0 和 P1 修复
+
+提交历史：
+- 448d179: fix: 修复 P0 问题 - 周报统计、TOP贡献者、活跃开发者
+- 5f7ede1: feat: P1修复 - 添加健康评分和风险指标详细说明
+
+影响文件：
+- scripts/weekly-report.py
+- scripts/daily-report.py
+```
+
+### 脱敏最佳实践 / Sanitization Best Practices
+
+如果要公开代码仓库，需要：
+
+1. **移除敏感配置** / Remove Sensitive Config:
+   - API Keys, Webhooks
+   - 服务器 IP 地址
+   - 内部品牌名称
+
+2. **使用示例配置** / Use Example Config:
+```yaml
+# config.example.yaml
+dingtalk_webhook: "YOUR_DINGTALK_WEBHOOK_HERE"
+ecs_server: "YOUR_SERVER_IP"
+repositories:
+  - name: "example-repo"
+    path: "/path/to/your/repo"
+```
+
+3. **文档说明** / Documentation:
+```markdown
+# README.md
+
+## Configuration
+
+1. Copy `config.example.yaml` to `config.yaml`
+2. Fill in your actual values
+3. Add `config.yaml` to `.gitignore`
+```
+
+### 持续集成建议 / CI/CD Recommendations
+
+虽然本项目未实现 CI/CD，但推荐：
+
+```yaml
+# .github/workflows/test.yml
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest tests/
+```
+
+---
+
+**最后更新**: 2026-01-06
